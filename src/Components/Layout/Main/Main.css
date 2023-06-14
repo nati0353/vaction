@@ -1,0 +1,16 @@
+.Main {
+	direction: ltr;
+	display: flex;
+  	flex-direction: column;
+	}
+
+.vacation-list {
+	align-items: flex-start;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: flex-start;
+  	gap: 10px;
+	/* max-height: 640px;	 */
+	max-width: 100%;
+	overflow-y: scroll;
+}

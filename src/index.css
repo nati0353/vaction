@@ -1,0 +1,26 @@
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  color: darkblue;
+  background: url(../src/assets/layoutBG.avif) no-repeat center center fixed;
+  background-size: cover;
+  direction: rtl;
+  font-family: "Rubik Mono One", sans-serif;
+  
+}
+
+.Box {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 5px;
+  direction: ltr;
+  font-family: "Rubik Mono One", sans-serif;
+  
+}
